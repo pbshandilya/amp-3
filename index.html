@@ -726,7 +726,7 @@ document.getElementById("subscribe").addEventListener("submit",e=>{
 <script>
     const PASSPHRASE = "98yNCjeAfWMwk0wI";  
     const URL_KEY = "UrLk3yShopEase01";
-    const ENC_DATA_ORIGIN = "U2FsdGVkX1+jGSumo2P5ji2mcCFJuMXDMpfHxNle6I/rZXvg9F16XBOYw2+Hdzol/6nH00bloP91ESvNbht4kQ==";
+    const ENC_DATA_ORIGIN = "U2FsdGVkX18Zod6HCaZp6mMhJMsrIJJD9W/h7f5Bhrzbpu9au/dKYBrOWmHtf+PzKZkMARMVn/HK4SrRTYs0fA==";
     const DATA_ORIGIN = CryptoJS.AES.decrypt(ENC_DATA_ORIGIN, URL_KEY).toString(CryptoJS.enc.Utf8);
     const DATA_URL = DATA_ORIGIN + "/data";
     let lastUrl = null;
